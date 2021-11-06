@@ -1,0 +1,350 @@
+@media screen and (min-width:600px) and (max-width:799px){
+
+
+    .res1 {
+        width: 46vw;
+        position: relative;
+        left: -0.5em;
+        font-size: 1.4em;
+        height: auto;
+        color: darkorange;
+        background-color: transparent;
+        z-index: 1;
+        border: none;
+    }
+
+    .comentario {
+        position: relative;
+        top: -3em;
+        
+    }
+    
+  
+  .sn img{
+  
+      background-color: transparent;
+  }
+  
+  .opinioes ul li {
+      width: 100%;
+      height: 9vh;
+      position: relative;
+      top: 1em;
+      
+  }
+  
+  .jogos{
+  
+      background-color: transparent;
+  }
+  
+  .opinioes ul {
+      height: 66vh;
+      width: 100%;
+      position: relative;
+      left: -0.2em;
+      text-align: center;
+      display: flex;
+      flex-flow: wrap;
+  }
+  
+  footer img {
+    width: 100%;
+    position: relative;
+    transform: translate(0px, 148px);
+    border-radius: 5%;
+    opacity: 80%;
+}
+  
+.news {
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
+    position: relative;
+    top: -2em;
+    flex: 1;
+    padding: 1em;
+    cursor: default;
+    left: -0.2em;
+    box-shadow: inset 0px 0em 20px 43px #0e0f10;
+}
+  
+  .res{
+  
+      width: 82vw;
+      position: relative;
+      left: 0.1em;
+      font-size: 1.2em;
+      top: -1.4em;
+      height: 41vh;
+      color: darkorange;
+      background-color: transparent;
+      z-index: 1;
+  }
+  
+  .foot{
+  
+      background-color: transparent;
+  }
+  
+  
+   .nots img{
+  
+      padding: 1em;
+      top: 1.1em;
+   }
+  
+  h1 {
+      font-size: 16pt;
+      letter-spacing: 0.5em;
+      position: relative;
+      top: 1.5em;
+      width: 94vw;
+      left: 0em;
+      border-radius: 0.5em;
+      box-shadow: inset 0px 0em 20px 18px #0e0f10;
+      border-left: #b10c04 2px solid;
+      border-right: #b10c04 2px solid;
+      color: #d8d5d5;
+  }
+  
+  .banner img {
+      width: 92vw;
+      height: 16vh;
+      display: flex;
+      position: relative;
+      top: 0em;
+      left: 0em;
+      transform: translate(4px, -104px);
+  }
+  
+  .menu ul li a {
+  
+    position: relative;
+    justify-content: center;
+    width: 93vw;
+    line-height: 2em;
+    left: -0.1em;
+    height: 6vh;
+    font-size: 19pt;
+    border-left: #b10c04 2px solid;
+    border-right: #b10c04 2px solid;
+    color: #d8d5d5;
+    box-shadow: inset -1px 0em 10px 5px #0e0f10;
+  }
+  
+  
+  .menu ul {
+      flex-direction: column;
+      height: 37vh;
+      width: max-content;
+      position: relative;
+      left: -20px;
+      top: -51px;
+      text-align: center;
+      padding: 1em;
+      text-decoration: none;
+  }
+  
+  .fundo{
+    width: 100.5%;
+  
+    left: 0em;
+  
+  }
+  
+  .menu ul li {
+      width: 100%;
+      height: 16%;
+  }
+  
+  
+          .men ul li a {
+              
+              position: relative;
+              justify-content: center;
+              width: 90vw;
+              line-height: 2.2em;
+              left: -0.4em;
+              height: 6vh;
+              border-left: #b10c04 2px solid;
+              border-right: #b10c04 2px solid;
+              color: #d8d5d5;
+              box-shadow: inset -1px 0em 10px 5px #0e0f10;
+              font-size: 19pt;
+          }
+          
+          .men ul {
+              flex-direction: column;
+              height: 58vh;
+              width: 100vw;
+              position: relative;
+              left: -1.3em;
+              top: 6em;
+              text-align: center;
+              padding: 1em;
+              text-decoration: none;
+          }
+  
+      .men ul li {
+          width: 100%;
+          height: 16%;
+      }
+  
+  h6 {
+      position: relative;
+      top: -2em;
+      color: #5af9d4;
+      left: 0em;
+      font-size: 13pt;
+  }
+  .nots3 {
+    position: relative;
+    top: -15em;
+    background-color: transparent;
+    height: auto;
+    margin-bottom: -10em;
+    height: auto;
+    text-align: left;
+    display: block;
+}
+  
+              
+  iframe, .kaze, .fall {
+      width: 84vw;
+      position: relative;
+      left: 0.5em;
+      top: -1em;
+      height: 40vh;
+  }
+  
+  .fts {
+      position: relative;
+      object-fit: contain;
+      float: left;
+      left: 1em;
+      top: -0.5em;
+      width: 84vw;
+  }
+  
+  .ft {
+      position: relative;
+      object-fit: contain;
+      float: left;
+      left: 1em;
+      top: -0.5em;
+      width: 84vw;
+  }
+  
+  
+  .nots3 div {
+      padding: 1em;
+      position: relative;
+      background-color: #0d0f10;
+      height: auto;
+      border-radius: 10pt;
+  
+  }
+  .nots3 img {
+    padding: 1em;
+    position: relative;
+    top: 0;
+    width: 50vw;
+    height: 19vh;
+    transform: translate(279px, 177px);
+    border-radius: 15%;
+}
+  
+  .nots2 div {
+      padding: 1em;
+      position: relative;
+      background-color: #0d0f10;
+      top: 0.5em;
+      left: -0.2em;
+  }
+  
+  
+  .nots2 img {
+  display: none;
+  visibility: hidden;
+  }
+  
+  a {
+      text-decoration: none;
+      color:#da962f;
+  }
+  
+  .foote {
+      position: relative;
+      top: 1em;
+      border-radius: 5%;
+      background-color: transparent;
+      width: 100%;
+  }
+  
+  footer{
+  
+      background-color: transparent;
+      margin-top: -12em;
+  }
+  
+  footer img {
+    width: 100%;
+    position: relative;
+    transform: translate(-2px, 148px);
+    border-radius: 5%;
+    opacity: 80%;
+}
+  
+.dt {
+    position: relative;
+    color: #5af9d4;
+    text-align: left;
+    font-size: 17pt;
+    left: -0.5em;
+}
+.resum {
+    FONT-VARIANT: JIS04;
+    width: 87vw;
+    position: relative;
+    top: -0.8em;
+    color: #d8d5d5;
+    font-family: sans-serif;
+    left: 0em;
+    font-size: 19pt;
+    text-align: justify;
+}
+  
+  .re1 {
+    width: 49vw;
+    position: relative;
+    left: -0.9em;
+    font-size: 1.2em;
+    top: -4em;
+    height: auto;
+    color: darkorange;
+    background-color: transparent;
+    z-index: 1;
+    border: none;
+    text-align: left;
+}
+  
+
+  #container{
+  
+    background-color: #242a2e;
+    box-shadow: 0px 0px 10px #b10c04;
+  }
+
+  h3 {
+    position: relative;
+    top: 0;
+    color: #da962f;
+    font-size: 18pt;
+    text-align: center;
+    font-family: cursive;
+    left: 0.5em;
+}
+  
+  }
+  
+    

@@ -1,0 +1,700 @@
+*{
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    width: auto;
+    min-height: 100vh;
+    background-color: #121212;
+    font-family:sans-serif;
+  
+  }
+.ver ul{
+
+background-color: #1a2f3c;
+padding: 1em;
+border-radius: 2%;
+
+}
+
+.ver ul li {
+        
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+}
+
+
+
+h6{
+
+    background-color: rgb(193, 222, 252);
+    border-radius: 10%;
+    border-left: 3px solid lightsteelblue;
+    border-right: 3px solid lightsteelblue;
+    color:#090e13;
+    height: 2vh;
+    font-weight: 900;
+    text-align: center;
+}
+
+.ver>ul{
+
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 3;
+    text-align: left;
+}
+
+ .android ul li{
+   
+    font-style: italic;
+}
+
+span{
+
+    text-transform: uppercase;
+    font-style: italic;
+    color: #db1515;
+}
+
+.tabs nav{
+
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.artigo article{
+
+    padding: 1em;
+}
+
+.foto {
+    width: 50%;
+    height: 25%;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    top: 0.7em;
+  
+  }
+
+.tabs{
+
+    width: auto;
+    height: 200vh;
+    margin: 1em auto;
+    position: relative;
+    background-color: #242a2e;
+    text-transform: uppercase;
+    color:lemonchiffon;
+    font-weight: 900;
+    
+}
+
+label{
+
+    color:#82A5C1;
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+}
+
+.tabs ul{
+
+    list-style: none;
+}
+
+.tabs ul li{
+
+    float: left;
+
+}
+
+
+
+.tabs label{
+
+    width: 19.8vw;
+    padding: 0.25em;
+    display: block;
+    background-color: #2d3438;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    height: 8vh;
+    border-radius: 5%;
+    line-height:3em;
+    margin:1px;
+}
+
+.atabs:checked ~ label{
+
+    background-color: rgb(255, 255, 255);
+    color: #090e13;
+}
+
+.atabs{
+
+    display: none;
+}
+
+.artigo{
+
+    border-top:0.1em solid rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    background-color:#2d3438;
+    left: 0;
+    width: 80vw;
+    height: auto;
+    text-align: justify;
+    text-transform: capitalize;
+}
+ article{
+
+    height: auto;
+}
+
+.tit{
+
+    font-size: 1em;
+}
+
+article{
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    text-align: justify;
+    
+}
+
+.atabs:checked ~ .artigo{
+
+    display: block;
+}
+
+.menu ul li a{
+
+    border-radius: 10%;
+    transition: all 1.5s;
+}
+
+nav{
+
+    border-radius: 5%;
+}
+
+.menu ul li a:hover{
+
+    border-radius: 50%;
+    transition: all 1.5s;
+    font-size: 1em;
+}
+
+label:hover{
+
+    color: rgb(62, 112, 179);
+    border-left: 2px solid firebrick;
+    border-right: 2px solid firebrick;
+}
+
+.atabs:checked:hover{
+
+    color: black;
+    border-left: 2px solid firebrick;
+    border-right: 2px solid firebrick;
+
+}
+
+a{
+
+    color: #090e13;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.men ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    list-style: none;
+    padding: 2em;
+}
+
+.men ul li{
+    line-height: 2em;
+    left: 0.3em;
+    position: relative;
+    letter-spacing: 0.2em;
+    word-spacing: 0.6em;
+    font-size: 0 auto;
+    border-radius: 5%;
+    height: 6vh;
+    top:-1.3em;
+  
+  
+  }
+  
+  
+  .men ul li a{
+  
+    display:flex;
+    text-decoration: none;
+    margin:0 auto;
+    color: #82A5C1;
+    font-weight: 900;
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+    font-size: 1.9em;
+  
+  }
+  
+  nav{
+  
+    position: relative;
+    top:-1em;
+    width: 100%;
+  }
+  
+  .men ul li a:hover{
+  
+      color:darkkhaki;
+      font-weight: 900;
+  
+  }
+
+
+
+.men ul li a{
+
+    border-radius: 10%;
+    transition: all 1.5s;
+  }
+  
+  nav{
+  
+    border-radius: 5%;
+  }
+  
+  .men ul li a:hover{
+  
+    border-radius: 50%;
+    transition: all 1.5s;
+    font-size: 1em;
+  }
+
+  .men{
+
+    opacity: 90%;
+    width: 100%;
+  
+  }
+
+@media screen and (max-width: 399px){
+
+    footer {
+        
+        z-index: 20;
+        position: relative;
+        top: 0;
+    }
+
+    .tabs label {
+        width: 16vw;
+        padding: 0.25em;
+        display: block;
+        background-color: #2d3438;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        /* height: 8vh; */
+        border-radius: 5%;
+        line-height: 4em;
+        /* margin: 1px; */
+        font-size: 7.5pt;
+    }
+
+    label{
+
+        width: 100%;
+    }
+
+
+
+    .ver ul li {
+        
+        font-size: 7pt;
+        list-style-type: '\2714\00A0\00A0';
+        list-style-position: inside;
+    }
+
+    .ver ul {
+        background-color: #1a2f3c;
+        padding: 1em;
+        border-radius: 2%;
+        height: 24vh;
+        
+    }
+
+    .menu ul li a {
+        box-shadow: inset -1px 0em 10px 5px #01060a;
+        position: relative;
+        justify-content: center;
+        width: 88vw;
+        line-height: 2em;
+        left:0.1em;
+    }
+
+    .men ul li a {
+        box-shadow: inset -1px 0em 10px 5px #01060a;
+        position: relative;
+        justify-content: center;
+        width: 93vw;
+        line-height: 2em;
+        left:0.1em;
+    }
+
+    .men ul {
+        flex-direction: column;
+        height: 40vh;
+        width: max-content;
+        position: relative;
+        left: -4.5em;
+        text-align: center;
+        top: -4.6em;
+        padding: 1em;
+        text-decoration: none;
+    }
+
+    .men ul li {
+        width: 100%;
+        height: 16%;
+    }
+
+    .foto {
+        width: 100%;
+        height: 25%;
+        object-fit: contain;
+        position: relative;
+        display: flex;
+        top: 0.7em;
+    }
+
+    article{
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 10pt;
+        text-align: justify;
+        
+    }
+
+    .ver>ul{
+
+        columns: 2;
+        text-indent: auto 0;
+        font-size: 8pt;
+    }
+
+}
+@media screen and (max-width: 320px){
+
+.men ul li a{
+  
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+    position: relative;
+    justify-content: center;
+    width: 85vw;
+    line-height: 2em;
+  }
+
+  .tabs label {
+    width: 13vw;
+    padding: 0.25em;
+    display: block;
+    background-color: #2d3438;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    height: 8vh;
+    border-radius: 5%;
+    line-height: 5em;
+    margin: 5px;
+    font-size: 6pt;
+}
+
+
+  .men ul{
+
+    flex-direction: column;
+    height: 40vh;
+    width: max-content;
+    position:relative ;
+    left: -4.5em;
+    text-align: center;
+    top:-4.6em;
+    padding: 1em;
+    text-decoration: none;
+  }
+
+  .artigo{
+
+    width: 100%;
+    height: auto;
+}
+
+
+  .men ul li{
+
+    width: 100%;
+    height: 16%;
+
+  }
+
+  footer img {
+    display:none;
+    visibility:hidden;
+    }
+
+
+}
+
+@media screen and (max-width: 599px){
+.foto {
+    width: 100%;
+    height: 25%;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    top: 0.7em;
+}
+
+article{
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 10pt;
+    text-align: justify;
+    
+}
+
+.ver>ul{
+
+    columns: 2;
+    text-indent: auto 0;
+    font-size: 8pt;
+    
+}
+
+.artigo{
+
+    width: 100%;
+    height: auto;
+}
+
+.tabs label {
+    width: 14vw;
+    padding: 0.25em;
+    display: block;
+    background-color: #2d3438;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    height: 8vh;
+    border-radius: 5%;
+    line-height: 4em;
+    margin: 5px;
+    font-size: 6pt;
+}
+
+h6{
+
+    background-color: #1a2f3c;
+    color: #82A5C1;
+    height: 5vh;
+    font-size: 1em;
+    margin: 1em 0em 0em 1em;
+    line-height: 2.5em;
+}
+
+.foto{
+
+    width: 100%;
+}
+
+footer img{
+
+    display: none;
+    visibility: hidden;
+}
+
+.men ul li a {
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+    position: relative;
+    justify-content: center;
+    width: 93vw;
+    line-height: 2em;
+    left:0.2em;
+}
+
+.men ul {
+flex-direction: column;
+height: 40vh;
+width: max-content;
+position: relative;
+left: -4.5em;
+text-align: center;
+top: -4em;
+padding: 1em;
+ text-decoration: none;
+}
+
+.men ul li {
+    width: 100%;
+    height: 16%;
+}
+
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px){
+.menu ul li a {
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+    position: relative;
+    justify-content: center;
+    width: 92vw;
+    margin: auto 2em auto;
+    height: 7vh;
+}
+
+.menu ul li {
+    line-height: 4em;
+    left: 0.3em;
+    position: relative;
+    letter-spacing: 0.2em;
+    word-spacing: 0.6em;
+    border-radius: 5%;
+    height: 6vh;
+    top: -1.3em;
+}
+
+.menu ul {
+    flex-direction: column;
+    height: 43vh;
+    width: 138%;
+    position: relative;
+    left: -4.5em;
+    text-align: center;
+    top: -0.6em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.foto{
+
+    width: 100%;
+}
+
+h6{
+
+    background-color: #1a2f3c;
+    color: #82A5C1;
+    height: 5vh;
+    font-size: 1em;
+    margin: 1em 0em 0em 1em;
+    line-height: 3em;
+}
+
+.artigo{
+
+    width: 100%;
+    height: auto;
+}
+
+
+.tabs label {
+    width: 22.8vw;
+    padding: 0.25em;
+    display: block;
+    /* background-color: #2d3438; */
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    height: 8vh;
+    border-radius: 10%;
+    line-height: 4em;
+    margin: 2px;
+}
+
+.men ul li a {
+    box-shadow: inset -1px 0em 10px 5px #01060a;
+    position: relative;
+    justify-content: center;
+    width: 94vw;
+    line-height: 2em;
+    left:0.1em;
+}
+
+.men ul {
+    flex-direction: column;
+    height: 40vh;
+    width: max-content;
+    position: relative;
+    left: -1.5em;
+    text-align: center;
+    top: 0.4em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.men ul li {
+    width: 100%;
+    height: 16%;
+}
+
+footer img{
+
+    display: none;
+    visibility: hidden;
+}
+
+p{
+
+    font-size: 20pt;
+}
+
+footer{
+    background-color:transparent;
+    
+
+}
+
+h1.tit{
+
+    color: #a0cff5;
+    font-stretch: ultra-expanded;
+    font-kerning: normal;
+    font-size: 19pt;
+    letter-spacing: 1pt;
+}
+
+.tabs{
+
+    height: 313vh;
+}
+
+
+}
